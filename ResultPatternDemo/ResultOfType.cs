@@ -1,3 +1,4 @@
+
 namespace ResultPatternDemo
 {
     public class ResultOfType<T>
@@ -20,7 +21,9 @@ namespace ResultPatternDemo
 
         #region Public properties
         public T? Value { get; }
+
         public Error? Error { get; }
+
         public bool? IsSuccessful { get; }
         #endregion
 
