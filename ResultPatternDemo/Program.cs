@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ResultPatternDemo;
+
+Console.WriteLine("****** Trying out result generation ******");
+
+var person = new Person("Olumuyiwa", "Agboola");
+
+Console.WriteLine($"Person: {person.FirstName} {person.LastName}");
