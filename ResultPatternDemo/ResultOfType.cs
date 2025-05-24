@@ -3,7 +3,7 @@ namespace ResultPatternDemo
     public class ResultOfType<T>
     {
         #region Private constructors
-        private ResultOfType(T value)
+        public ResultOfType(T value)
         {
             Error = null;
             Value = value;
